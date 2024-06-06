@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Pleasant light blue color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #00796b; /* Dark teal color */
+}
+
+.display-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.display {
+    width: 100%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.input-container {
+    margin-top: 20px;
+    color: #00796b;
+}
+
+.length-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.slider {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.strength-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.strength-container p {
+    margin: 0;
+}
+
+.strength-container div {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; /* Make it a circle */
+    background-color: #ccc; /* Default color */
+    margin-left: 10px;
+}
+
+.generateButton {
+    width: 100%;
+    background-color: #008CBA;
+    margin-top: 20px;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.generateButton:hover {
+    background-color: #007BB5;
+}
+
+/* Additional styles for strength indicator colors */
+.strength-weak {
+    background-color: red;
+}
+
+.strength-moderate {
+    background-color: yellow;
+}
+
+.strength-strong {
+    background-color: green;
+}
