@@ -204,7 +204,7 @@ console.log("Compulsory addition done");
 
 for(let i=0;i<passwordLength-funcArr.length;i++){
   let randIndex=getRndInteger(0,funcArr.length);
-console.log("randIndex"+randIndex);
+console.log("randIndex"+randIndex); 
 
   password+=funcArr[randIndex]();
 }
